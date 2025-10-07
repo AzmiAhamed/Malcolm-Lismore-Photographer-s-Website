@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Link to custom styles.css for additional styling -->
+    <link rel="stylesheet" href="Home Page.css"/>
+    <title>Blogs Page</title>
+</head>
+<body>
+    <header class="header" id="home">
+        <!-- Navigation menu -->
+        <nav>
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">
+                <!-- Logo image -->
+                <img src="Photos/logo-white.png" alt="logo" />
+              </a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <!-- Menu icon for mobile view -->
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+          
+          <ul class="nav__links" id="nav-links">
+            <!-- Navigation links -->
+            <li class="nav__logo">
+                <a href="#">
+                  <img src="Photos/logo-white.png" class="logo_size" alt="logo" />
+                </a>
+            </li>
+            <li><a href="#home" onclick="location.href='Home Page.html'">HOME</a></li>
+            <!-- Logo in the middle of the navigation -->
+            <li><a href="#blog" onclick="location.href='View Blog.html'">BLOG</a></li>
+            <li><a href="#contact" onclick="location.href='contactus.php'">CONTACT US</a></li>
+            <button onclick= "location.href='signin.php'" class="btn" id="loginbtn">LOGIN</button>
+          </ul>
+        </nav>
+        <div>
+          <h1 class="header_container">Welcome to,<br> Our latest blogs Page</h1>  
+        </div>
+      </header>
+      <section class="blog-section">
+        <h2>Our Latest Blog News</h2>
+        <div class="blog-container section__container">
+          <div class="blog-item">
+            <img src="Photos/human/image-7.jpg" alt="Blog Photo 1">
+            <div class="blog-content">
+              <h3>Capturing Emotion in Every Frame</h3>
+              <p>This blog post delves into the importance of storytelling in
+                photography and how Capturer approaches capturing emotion and
+                narrative in their work. Readers will discover the techniques and
+                strategies used by professional photographers to evoke emotion,
+                convey meaning, and create compelling visual narratives that
+                resonate with viewers on a deep level.
+              </p>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img src="Photos/human/image-6.jpg" alt="Blog Photo 2">
+            <div class="blog-content">
+              <h3>The Power of Light and Shadow</h3>
+              <p>Discover how mastering light and shadow can transform ordinary
+                shots into breathtaking visuals. This blog post walks through how
+                Capturer uses lighting techniques to create mood, contrast, and
+                drama in every photo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <img src="Photos/logo-dark.jpg" class="logo_size" alt="logo" />
+            <div class="footer__socials">
+              <!-- Social media links -->
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-line"></i></a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__links">
+              <!-- Footer navigation links -->
+              <li><a href="#home">HOME</a></li>
+            </ul>
+            <br>
+            <p> We hope you love the Blog Photos in this page. Our team will add too more photos in future.
+               Thank you for visit Malcolm Lismore Photographer’s Website </p>
+          </div>
+          <div class="footer__col">
+            <h4>STAY IN TOUCH</h4>
+            <p>
+              <!-- Call to action for newsletter or updates -->
+              Keep up-to-date with all things Capturer! Join our community and
+              never miss a moment! <br> More Details Contact us <br>
+              +94 7XXXXXXXX    +94 7XXXXXXXX <br>
+              <button onclick="location.href='contactus.php'" class="btn">CONTACT US</button>
+            </p>
+          </div>
+        </div>
+        <div class="footer__bar">
+          <!-- Copyright notice -->
+           © 2025 Malcolm Lismore Photographer’s Website . All rights reserved.
+        </div>
+      </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

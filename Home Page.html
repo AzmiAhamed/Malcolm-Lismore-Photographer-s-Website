@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Remix Icon stylesheet for using icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Link to Swiper CSS for slider functionality -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Link to custom styles.css for additional styling -->
+    <link rel="stylesheet" href="Home Page.css"/> 
+    <title>Malcolm Lismore Photographer’s Website </title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <!-- Navigation menu -->
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <!-- Logo image -->
+              <img src="Photos/logo-white.png" alt="logo" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <!-- Menu icon for mobile view -->
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <!-- Navigation links -->
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <!-- Logo in the middle of the navigation -->
+          <li class="nav__logo">
+            <a href="#">
+              <img src="Photos/logo-white.png" class="logo_size" alt="logo" />
+            </a>
+          </li>
+          <li><a href="#packages">PACKAGES</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+          <button onclick= "location.href='signin.php'" class="btn" id="loginbtn">LOGIN</button>
+        </ul>
+      </nav>
+      <div>
+        <h1 class="header_container">Welcome to,<br> Malcolm Lismore Photography</h1>  
+      </div>
+    </header>
+    <div class="section__container about__container" id="about">
+      <h2 class="section__header">WE CAPTURE THE MOMENTS</h2>
+      <p class="section__description">
+        <!-- Description of the photography service -->
+        At Capturer, we specialize in freezing those fleeting moments in time
+        that hold immense significance for you. With our passion for photography
+        and keen eye for detail, we transform ordinary moments into
+        extraordinary memories.
+      </p>
+      <p class="section__description">
+        <!-- Additional description -->
+        Whether it's a milestone event, a candid portrait, or the breathtaking
+        beauty of nature, we strive to encapsulate the essence of every moment,
+        ensuring that your cherished memories last a lifetime. Trust us to
+        capture the magic of your life's journey, one frame at a time.
+      </p>
+      <img src="Photos/logo-dark.jpg" alt="logo" />
+    </div>
+    <div class="profile-section">
+      <div class="profile-image">
+        <img src="Photos/human/service.jpg" alt="Photographer">
+      </div>
+      <div class="profile-text">
+        <h2><span>I AM</span><em> MALCOLM LISMORE</em></h2>
+        <p class="sub-heading">Professional photographer &<br>owner of malcolm Lismore photography</p>
+        <div class="line"></div>
+        <p class="section__description">
+          Malcolm Lismore is a passionate photographer and the proud owner of this website. 
+          With a deep love for capturing authentic moments, 
+          he brings creativity, experience, and a unique perspective to every shot he takes.
+        </p>
+      </div>
+    </div>
+    <div class="section__container portfolio__container">
+      <h2 class="section__header">PHOTOGRAPHIES</h2>
+      <div class="portfolio__grid">
+        <!-- Portfolio cards for showcasing images -->
+        <div class="portfolio__card">
+          <img src="Photos/Categories/Portrait.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button onclick="location.href ='Potrait Photos.html'" class="btn" data-category="Portrait">VIEW PHOTOS</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="Photos/Categories/Wedding.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button onclick="location.href ='Wedding Photos.html'" class="btn" data-category="Wedding">VIEW PHOTOS</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="Photos/Categories/Fashion.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button onclick="location.href ='Fashion Photos.html'" class="btn" data-category="Fashion">VIEW PHOTOS</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="Photos/Categories/Birds.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button onclick="location.href ='Birds Photos.html'" class="btn" data-category="Birds">VIEW PHOTOS</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="Photos/Categories/Animal.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button onclick="location.href ='Animals Photos.html'" class="btn" data-category="Animal">VIEW PHOTOS</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="Photos/Categories/Nature.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button onclick="location.href ='Nature Photos.html'" class="btn" data-category="Nature">VIEW PHOTOS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header"> SERVICES </h2>
+        <p class="section__description">
+          <!-- Description of services offered -->
+          At Capturer, we offer a range of professional photography services
+          tailored to meet your unique needs. With a commitment to excellence
+          and creativity, we strive to exceed your expectations, delivering
+          captivating visuals that tell your story with authenticity and
+          passion.
+        </p>
+        <div class="service__grid">
+          <!-- Individual service cards -->
+          <div class="service__card">
+            <h4>Portrait Sessions</h4>
+            <p>
+              Our portrait sessions are designed to showcase your personality
+              and style in stunning imagery.
+            </p>
+          </div>
+          <div class="service__card">
+            <h4>Maternity Sessions</h4>
+            <p>
+              Embrace the beauty and miracle of new life with our maternity and
+              newborn photography sessions.
+            </p>
+          </div>
+          <div class="service__card">
+            <h4>Family Sessions</h4>
+            <p>
+              Cherish the bond of family with our custom-designed playful candid
+              moments and portrait sessions.
+            </p>
+          </div>
+          <div class="service__card">
+            <h4>Wildlife Sessions</h4>
+            <p>
+              Our wildlife sessions let you capture nature’s beauty and wildlife in their natural habitat, 
+              creating stunning and immersive imagery.
+            </p>
+          </div>
+          <div class="service__card">
+            <h4>fashion Photography Sessions</h4>
+            <p>
+              Elevate your style with our fashion photography sessions! 
+              From high-end editorials to personal portfolios, we create stunning visuals that showcase elegance, confidence, and creativity.
+            </p>
+          </div>
+          <div class="service__card">
+            <h4>Nature Scene Sessions</h4>
+            <p>
+              Capture the breathtaking beauty of nature with our photography sessions. 
+              From scenic landscapes to serene sunsets, create stunning visuals that showcase the wonders of the outdoors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Package section-->
+    <section class="section__container client__container" id="packages">
+      <h2 class="section__header"> PACKAGES </h2>
+      <!-- Slider main container for client testimonials -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides for testimonials -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="Photos/Categories/Wedding.jpg" alt="package" />
+              <p>
+                Make your wedding day truly unforgettable with our premium Wedding Package, 
+                designed to capture every magical moment with elegance and perfection. 
+                From the intimate exchange of vows to the grand celebrations,
+                 we ensure that every detail is preserved beautifully.
+              </p>
+              <h4>Wedding Package <br> $349</h4><br>
+              <button onclick="location.href='package.php'" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buyNowModal" data-price="$349">
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="Photos/Categories/Wildlife.png" alt="package" />
+              <p>
+                Our phographers Capture breathtaking moments of majestic animals and birds in their natural habitat.
+                This package was good for the nature lovers and animal lovers.
+                In this package includes all natural scenes. we ensure that every nature detail is preserved beautifully.
+              </p>
+              <h4>WildLife Package <br> $249</h4> <br>
+              <button onclick="location.href='package.php'"  type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buyNowModal" data-price="$249">
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="Photos/Categories/Portrait.jpg" alt="client" />
+              <p>
+                Our Portrait Session Package is designed to bring out your personality, 
+                confidence, and natural beauty in high-quality professional photographs. 
+                Whether you need a personal portrait, a professional headshot, 
+                or a creative photoshoot, we ensure a session tailored just for you!
+              </p>
+              <h4>Portrait Package <br> $199</h4><br>
+              <button onclick="location.href='package.php'"  type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buyNowModal" data-price="$199">
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="Photos/Sydney-Photographer-Doltone-House-Events-orlandosydney.com-OS2_5845.jpg" alt="client" />
+              <p>
+                From lively parties and corporate events to exhibitions and special celebrations, 
+                our Event Photography Package ensures every moment is beautifully preserved. 
+                We provide full event coverage with high-quality photos, capturing candid interactions, key highlights, and all the special details.
+                Whether it’s a birthday, conference, award ceremony, or product launch, our professional photographers deliver stunning images 
+                and optional videography to bring your event to life.
+              </p>
+              <h4>Special Event Package <br> $399</h4> <br>
+              <button onclick="location.href='package.php'" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buyNowModal" data-price="$399">
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination for the slider -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <div class="section__container blog__container">
+        <div class="blog__content">
+          <h2 class="section__header"> LATEST BLOG </h2>
+          <h3>Capturing Emotion in Every Frame</h3>
+          <p>
+            <!-- Brief description of the blog post -->
+            This blog post delves into the importance of storytelling in
+            photography and how Capturer approaches capturing emotion and
+            narrative in their work. Readers will discover the techniques and
+            strategies used by professional photographers to evoke emotion,
+            convey meaning, and create compelling visual narratives that
+            resonate with viewers on a deep level.
+          </p>
+          <div class="blog__btn">
+            <!-- Button to read more of the blog -->
+            <button class="btn" onclick="location.href='View Blog.html'" > View Blogs </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container instagram__container">
+      <h2 class="section__header"> INSTAGRAM </h2>
+      <div class="instagram__flex">
+        <!-- Instagram images -->
+        <img src="assets/image-1.jpg" alt="instagram" />
+        <img src="Photos/Gallery/Lions.jpg" alt="instagram" />
+        <img src="assets/image-3.jpg" alt="instagram" />
+        <img src="Photos/Gallery/wooden-bridge-beach-sunset.jpg" alt="instagram" />
+        <img src="Photos/Gallery/Macow parrot.jpg" alt="instagram" />
+        <img src="assets/image-6.jpg" alt="instagram" />
+        <img src="assets/image-7.jpg" alt="instagram" />
+        <img src="assets/image-8.jpg" alt="instagram" />
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <img src="Photos/logo-dark.jpg" class="logo_size" alt="logo" />
+          <div class="footer__socials">
+            <!-- Social media links -->
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-whatsapp-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <!-- Footer navigation links -->
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#packages">PACKAGES</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <button onclick= "location.href='adminlogin.php'" class="btn" id="loginbtn">ADMIN LOGIN</button>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>STAY IN TOUCH</h4>
+          <p>
+            <!-- Call to action for newsletter or updates -->
+            Keep up-to-date with all things Capturer! Join our community and
+            never miss a moment! <br> More Details Contact us <br>
+            +94 7XXXXXXXX    +94 7XXXXXXXX <br><br>
+            <button onclick="location.href='contactus.php'" class="btn">CONTACT US</button> 
+          </p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <!-- Copyright notice -->
+         © 2025 Malcolm Lismore Photographer’s Website. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- Scripts for ScrollReveal and Swiper functionality -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <!-- Bootstrap JS Bundle (includes Popper.js) -->
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      
+  </script>
+  </body>
+</html>
